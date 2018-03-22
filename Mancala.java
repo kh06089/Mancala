@@ -32,7 +32,7 @@ public class Mancala extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		Pane p = new Pane();
-		ImageView board = new ImageView(new Image("http://ba.net/juegos/mancala/images/MANCALA-game_bg_combined.jpg"));
+		ImageView board = new ImageView(new Image("https://ba.net/juegos/mancala/images/MANCALA-game_bg_combined.jpg"));
 		Label [] slot= new Label[14];
 		Text title = new Text("MANCALA");
 		Text stitle = new Text("Kym Haywood II");
